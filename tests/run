@@ -20,16 +20,16 @@ done
 # catalog in this repository — so it is skipped when the sibling is absent
 # rather than being reported as a pass.
 printf '\n== luma-catalog against the real catalog\n'
-if [ -d ../luma-catalog ]; then
-  if ./bin/luma-catalog-curator check ../luma-catalog >/dev/null 2>&1; then
+if [ -d ../luma-catalog-prototype ]; then
+  if ./bin/luma-catalog-curator check ../luma-catalog-prototype >/dev/null 2>&1; then
     printf 'clean\n'
   else
     printf 'FINDINGS:\n'
-    ./bin/luma-catalog-curator check ../luma-catalog 2>&1 | sed 's/^/  /'
+    ./bin/luma-catalog-curator check ../luma-catalog-prototype 2>&1 | sed 's/^/  /'
     status=1
   fi
 else
-  printf 'skipped — ../luma-catalog is not checked out\n'
+  printf 'skipped — ../luma-catalog-prototype is not checked out\n'
 fi
 
 printf '\n'

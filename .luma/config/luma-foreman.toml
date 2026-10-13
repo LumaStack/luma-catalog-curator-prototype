@@ -1,0 +1,4 @@
+[catalog]
+
+[catalog."lumastack/luma-catalog-prototype"]
+source = "https://github.com/LumaStack/luma-catalog-prototype"
