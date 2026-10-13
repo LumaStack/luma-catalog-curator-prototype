@@ -6,17 +6,17 @@
 # writes here.
 
 [[rule]]
-bundle = "lumastack/luma-catalog/luma-maintainers"
+bundle = "lumastack/luma-catalog-prototype/luma-maintainers"
 document = "policy/the-estate"
 title = "The estate, and what each repository owns"
-path = ".luma/bundles/lumastack/luma-catalog/luma-maintainers/policy/the-estate.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/luma-maintainers/policy/the-estate.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/luma-tools"
+bundle = "lumastack/luma-catalog-prototype/luma-tools"
 document = "policy/what-each-tool-does"
 title = "What each luma tool does"
-path = ".luma/bundles/lumastack/luma-catalog/luma-tools/policy/what-each-tool-does.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/luma-tools/policy/what-each-tool-does.md"
 on_violation = "allow"
 matches = ["command:luma-foreman", "command:luma-catalog-curator", "topic:choosing which luma tool does a job"]

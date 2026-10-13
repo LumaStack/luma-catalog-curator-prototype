@@ -6,5 +6,5 @@ Every container has an index. This is the project's: one entry per bundle, what 
 
 ## Offered — open a bundle's index when its line matches the work
 
-- `lumastack/luma-catalog/luma-maintainers` 0.14.0 — Working on the luma tools themselves — the repositories and the boundary each defends, publishing to the universal catalog, and changing a type without making every tool upgrade at once.
-- `lumastack/luma-catalog/luma-tools` 0.13.0 — Using the luma tools — which one does what, getting them onto a machine, standing a project up, and the get-then-apply loop that puts knowledge in front of an agent.
+- `lumastack/luma-catalog-prototype/luma-maintainers` 0.16.0 — Working on the luma tools themselves — the repositories and the boundary each defends, publishing to the universal catalog, and changing a type without making every tool upgrade at once.
+- `lumastack/luma-catalog-prototype/luma-tools` 0.13.0 — Using the luma tools — which one does what, getting them onto a machine, standing a project up, and the get-then-apply loop that puts knowledge in front of an agent.

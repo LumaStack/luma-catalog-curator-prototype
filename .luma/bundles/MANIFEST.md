@@ -13,11 +13,11 @@
   - source: https://github.com/LumaStack/luma-catalog.git
   - commit: ba68146d2e43eb2ee81d2997a6bd1dbddced9843
   - sha256: f07da0e1e02af5911a3611f425f658568f59b25adc3d92b2531f579ff089e66c
-- `lumastack/luma-catalog/luma-maintainers` 0.14.0
-  - source: https://github.com/LumaStack/luma-catalog
-  - commit: 71ce5307ce4d1355e90959efc8c8de1502c92829
-  - sha256: 68972eca217fb6458e6ac0de0f5045fa1d5f215f19d99fd52632d8db2db03561
-- `lumastack/luma-catalog/luma-tools` 0.13.0
-  - source: https://github.com/LumaStack/luma-catalog
-  - commit: 71ce5307ce4d1355e90959efc8c8de1502c92829
-  - sha256: c62cf721d2f748bf3b6cf80cd3acbf6e113b8aca94361579c71025a9739577c8
+- `lumastack/luma-catalog-prototype/luma-maintainers` 0.16.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 9d5eaad569576d32fdcb23becdcd4ec2e35a63d5bc2e2634ecda586ae29968b6
+- `lumastack/luma-catalog-prototype/luma-tools` 0.13.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 847e7635147e27059563d34d945cbf46382cd5fb0180740ab98d8aea9ff20b6b
